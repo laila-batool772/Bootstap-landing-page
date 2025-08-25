@@ -22,6 +22,7 @@ header {
     margin: 0;
     padding: 0;
     height: 70px;
+    background-color: #f2f8fe;
 
 
 }
@@ -281,6 +282,7 @@ img {
 
 .icon:hover {
     background-color: var(--accent-color);
+    color: white;
 }
 
 .mainitem {
@@ -307,6 +309,9 @@ img {
     margin-bottom: 1rem;
     line-height: 1.2;
     font-weight: 700;
+}
+.boutbottomconte p{
+    font-size: 16px;
 }
 
 .mainabout {
@@ -402,6 +407,7 @@ img {
 
 .rightimage img {
     border-radius: 20px;
+    margin-top: 40px;
 }
 
 .bhugfr {
@@ -507,7 +513,7 @@ img {
 
 .link ul {
     width: 353px;
-    background-color: #e5dfdf;
+    background-color: #f6f6f7;
 
     border-radius: 50px;
     overflow: hidden;
@@ -537,7 +543,7 @@ img {
 }
 
 .list li:hover {
-    color: var(--blecolor);
+    color: white;
     background-color: var(--blecolor);
     border-radius: 50px;
 }
@@ -552,6 +558,9 @@ img {
     border-radius: 50px;
     background-color: #0d83fd;
 } */
+ .list li a:hover{
+    color: white;
+ }
 
 .maetr {
     margin-top: 70px;
@@ -593,6 +602,7 @@ img {
 .iconpara span {
     color: #212529;
     font-weight: 400;
+    font-size: 17px;
 }
 
 .iconpara i {
@@ -913,6 +923,7 @@ padding: 100px 0; */
     text-align: center;
     position: relative;
     font-size: 48px;
+    font-weight: 700;
     color: var(--heading-color);
 }
 
@@ -953,6 +964,9 @@ padding: 100px 0; */
     border-radius: 10px;
     margin-right: 24px;
 
+}
+.srvicol:hover{
+    box-shadow: 0 0 15px rgba(0,0,0,0.08);
 }
 
 .mainservi {
